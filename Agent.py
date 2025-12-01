@@ -12,7 +12,7 @@ from pathlib import Path
 
 os.environ['OTEL_SDK_DISABLED'] = 'true'
 
-#api_key = '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'  # Replace with your actual API key
+#api_key = ''  # Replace with your actual API key
 
 def llm_initializer(api_key):
     try:
@@ -273,4 +273,5 @@ while True:
         print(f"An error occurred: {e}")
     
          
+
         
